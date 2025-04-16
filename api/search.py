@@ -4,7 +4,7 @@ import os
 from difflib import get_close_matches
 
 # Load product data once
-with open(os.path.join(os.path.dirname(__file__), '../products.json')) as f:
+with open(os.path.join(os.path.dirname(__file__), 'products.json')) as f:
     PRODUCTS = json.load(f)
 
 def handler(request, response):
